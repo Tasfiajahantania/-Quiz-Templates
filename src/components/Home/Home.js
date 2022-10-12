@@ -12,7 +12,7 @@ const Home = () => {
                 <HeroSection></HeroSection>
             </div>
 
-            <div className='grid lg:grid-cols-3 my-4 md:grid-cols-2 sm:grid-cols-1 sm:mx-3 gap-4 p-12 '>
+            <div className='grid lg:grid-cols-3 gap-4 my-4 md:grid-cols-2 sm:grid-cols-1 sm:mx-auto  p-12 '>
 
                 {
                     quizsData.map(quiz => <Quiz
