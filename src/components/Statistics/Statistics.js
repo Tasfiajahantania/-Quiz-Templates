@@ -10,7 +10,7 @@ const Statistics = () => {
     
     return (
         <div>
-            <h3 className='my-6 text-4xl'>Total Queston Chart</h3>
+            <h3 className='text-4xl font-bold m-6 underline'>Total Queston Chart</h3>
 
             <div className='w-full m-auto'>
                 <ResponsiveContainer width={600} height={400} className="m-auto">
