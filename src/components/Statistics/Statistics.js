@@ -13,7 +13,7 @@ const Statistics = () => {
             <h3 className='text-4xl font-bold m-6 underline'>Total Queston Chart</h3>
 
             <div className='w-full m-auto'>
-                <ResponsiveContainer width={600} height={400} className="m-auto">
+                <ResponsiveContainer width='80%' height={400} className="m-auto">
                     <LineChart data={statisticsdata}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="name" />
