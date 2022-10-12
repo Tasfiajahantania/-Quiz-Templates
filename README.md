@@ -1,6 +1,6 @@
 ## Author : Tania Akter
 
-link : `https://tasfia-quiz.netlify.app/`
+link : https://tasfia-quiz.netlify.app/
 
 Date : 12 Oct, 2022
 Email : tania.develpers@gmail.com
