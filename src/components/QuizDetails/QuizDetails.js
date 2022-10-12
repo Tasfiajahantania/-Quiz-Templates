@@ -20,9 +20,6 @@ const QuizDetails = () => {
                     ></QuizQuestion>)
                 }
             </div>
-            {/* <div className="Result ">
-                <h3>Your Result</h3>
-            </div> */}
         </div>
     );
 };
