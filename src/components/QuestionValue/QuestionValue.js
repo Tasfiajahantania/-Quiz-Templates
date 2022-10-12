@@ -3,7 +3,7 @@ import React from 'react';
 const QuestionValue = ({option}) => {
     
    const questionAnswer = (option) => {
-        console.log("You Answer Clicked", option)
+        console.log(" Answer Clicked", option)
    }
 
     
