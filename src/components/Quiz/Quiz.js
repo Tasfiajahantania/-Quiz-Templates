@@ -9,7 +9,7 @@ const {id, name, logo, total} = quiz;
             <div className='text-lg font-medium'>
                 <h3>{name}</h3>
                 <p> Total Q: {total}</p>
-                <Link to={`/quiz/${id}`}><button className='h-10 w-72 bg-blue-400 rounded-2xl mt-6 text-white font-bold'>Start Quiz</button></Link>
+                <Link to={`/quiz/${id}`}><button className='h-10 w-72 bg-blue-500 rounded-2xl mt-6 text-white font-bold'>Start Quiz</button></Link>
             </div>
         </div>
     );
