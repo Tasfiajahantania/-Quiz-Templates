@@ -47,7 +47,7 @@ const QuizQuestion = ({question}) => {
                     {
                         options.map((option, index) => <div
                         key={index}
-                        className='border-2 m-2 border-sky-800 bg-slate-300 p-2'>
+                        className='border-2 m-2 border-sky-800 bg-slate-300 p-2 rounded-xl'>
                         <input onClick={() => answerClicked(option)} type="radio" id={option} value={option}/>
                         <label className='pl-2' for={option}>{option}</label>
                     </div>)
