@@ -39,14 +39,15 @@ const QuizQuestion = ({question}) => {
     }
 
     return (
-        <div className='p-3 border-2 border-amber-600'>
+        <div>
+             <div className='border-l-4 border-sky-800 mx-20 my-10 p-6 shadow-lg bg-sky-200'>
             <h3 className='text-2xl text-left my-3'>Q: {questiondata}</h3>
                 
                 <div className="answer grid grid-cols-2 text-left">
                     {
                         options.map((option, index) => <div
                         key={index}
-                        className='border-2 m-2 border-amber-400 bg-slate-300 p-2'>
+                        className='border-2 m-2 border-sky-800 bg-slate-300 p-2'>
                         <input onClick={() => answerClicked(option)} type="radio" id={option} value={option}/>
                         <label className='pl-2' for={option}>{option}</label>
                     </div>)
@@ -56,6 +57,7 @@ const QuizQuestion = ({question}) => {
             
             <ToastContainer />
         </div>
+       </div>
     );
 };
 
