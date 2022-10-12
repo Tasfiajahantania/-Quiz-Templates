@@ -43,7 +43,7 @@ const QuizQuestion = ({question}) => {
              <div className='border-l-4 border-sky-800 mx-20 my-10 p-6 shadow-lg bg-sky-200'>
             <h3 className='text-2xl text-left my-3'>Q: {questiondata}</h3>
                 
-                <div className="answer grid grid-cols-2 text-left">
+                <div className="answer grid lg:grid-cols-2 md:grid-cols-1 text-left">
                     {
                         options.map((option, index) => <div
                         key={index}
